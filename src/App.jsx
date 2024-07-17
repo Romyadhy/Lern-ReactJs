@@ -1,5 +1,4 @@
 // src/App.jsx
-import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./Home";
@@ -18,6 +17,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      
       <Footer />
     </>
   );
