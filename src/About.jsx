@@ -23,12 +23,12 @@ const About = () => {
         </h1>
       </div>
       <div>
-        {/* <Image
+        <Image
           size={300}
           person={{
             name: "nenek",
           }}
-        /> */}
+        />
       </div>
       <div className="flex item-center justify-center">
         <Gallery />

@@ -1,4 +1,5 @@
 // import React from 'react';
+import { Link } from "react-router-dom";
 const Home = () => {
   return <Landing />;
 };
@@ -18,6 +19,9 @@ function Landing() {
             alt="pict"
             className="w-32 h-32 object-cover rounded-full "
           />
+        </div>
+        <div className="bg-blue-500 my-4 p-2 rounded-md text-white hover:bg-blue-700 cursor-pointer">
+          <Link to="/noteject">See other thing</Link>
         </div>
       </div>
     </>
