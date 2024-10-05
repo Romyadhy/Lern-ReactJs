@@ -43,6 +43,50 @@ Make sure you have Node.js and npm/yarn installed on your machine:
 
    ```bash
    git clone https://github.com/Romyadhy/Porto-React
-   Navigate to the project directory:
+   
+2. **Navigate to the project directory:**
+
+    ```bash
+   cd Lern-ReactJs
+   
+4. **Install dependencies:**
+
+    ```bash
+   npm install
+    
+6. **Run the development project**
+   
+    ```bash
+   npm run dev
+    
+8. **Open your browser and navigate to:**
+
+    ```bash
+   http://localhost:5173/
+    
+
+**Enjoy Explorers**
+
+
+🌟 Learning Resources
+If you're new to React.js or Vite, here are some helpful resources:
+
+- **React Documentation**
+- **Vite Documentation**
+- **React Router Documentation**
+- **JavaScript Info**
+
+🤝 Contributing
+Contributions are welcome! If you have any ideas or improvements, feel free to fork the repository and submit a pull request.
+
+📝 License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+👤 Author
+**Romyadhy** 
+
+*--So keep code and enjoy ur life--*
+
+
    
 
