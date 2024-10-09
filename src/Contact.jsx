@@ -15,6 +15,7 @@ const Contack = () => {
     </section>
     
   );
+  
 };
 
 export default Contack;
