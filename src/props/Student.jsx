@@ -10,7 +10,7 @@ function Judul() {
 export default function Student(props) {
     return (
         <>
-        <div className=" text-center border-2 m-4 p-2">
+        <div className="text-center border-2 m-4 p-2">
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
             <p>Student: {props.isStudent ? "yes" : "no"}</p>
@@ -26,7 +26,7 @@ Student.propTypes = {
 }
 
 Student.deflStudent = {
-    name: "Guest",
+    name: "gfdsgf",
     age: 0,
     isStudent: false
 }

@@ -12,6 +12,7 @@ const Contack = () => {
       <Student name="WhuShang" age={20} isStudent={false} />
       <Student name="Yimuko" age={20} isStudent={true} />
       <Student name="broo" age={0}/>
+      <Student name="gojo"/>
     </section>
     
   );

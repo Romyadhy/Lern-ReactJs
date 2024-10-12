@@ -1,5 +1,7 @@
 
 // import React from 'react';
+import LoginTes from "./props/Logintes";
+import List from "./renderingList/List";
 
 function ProductTable({products, filterText, inStockOnly}){
   const rows = [];
@@ -56,19 +58,17 @@ function SearchBar({
 }
 
 
-
-const Project = () => {
+function Project() {
   return (
     <section className="min-h-screen">
-      <div className="font-bold text-4xl text-gray-900 text-center m-4 p-4 cursor-pointer">
+      {/* <div className="font-bold text-4xl text-gray-900 text-center m-4 p-4 cursor-pointer">
         <h1 className="">My<span className="text-green-500">Project</span></h1>
       </div>
-      <SearchBar />
+     */}
+      <LoginTes isLogin={true} userName="Romss"/>
+      <List />
     </section>
   );
-
-
-  
 };
 
 const PRODUCTS = [

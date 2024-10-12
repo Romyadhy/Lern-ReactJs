@@ -11,7 +11,7 @@ function Landing() {
     <>
       <div className="flex items-center justify-center flex-col bg-[url('https://images.unsplash.com/photo-1523878288860-7ad281611901?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] h-screen bg-cover bg-center">
         <h1 className="text-center m-4 p-4 text-4xl font-bold">
-          Welcome to My <span className="text-gray-500">Portfolio</span>
+          Welcome to My <span className="text-gray-500">Website</span>
         </h1>
         <div className="">
           <img
