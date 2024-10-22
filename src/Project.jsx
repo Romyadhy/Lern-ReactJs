@@ -59,6 +59,13 @@ function SearchBar({
 
 
 function Project() {
+  const Legends = [
+    {id: 1, name: "hattori", weapon: "sword&spear", age: 20}, 
+    {id: 2, name: "gnar", weapon: "hammer&spear", age: 12}, 
+    {id: 3, name: "wushang", weapon: "spear&gauntles", age: 50}, 
+    {id: 4, name: "mordex", weapon: "scyte&gauntles", age: 32}
+  ];
+
   return (
     <section className="min-h-screen">
       {/* <div className="font-bold text-4xl text-gray-900 text-center m-4 p-4 cursor-pointer">
@@ -66,7 +73,8 @@ function Project() {
       </div>
      */}
       <LoginTes isLogin={true} userName="Romss"/>
-      <List />
+      <List items={Legends} category="Legends" />
+      
     </section>
   );
 };
