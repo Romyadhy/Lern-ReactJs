@@ -12,10 +12,10 @@ export default function Note() {
   // ];
 
   const [items, setItems] = useState([
-    "lordVrax",
-    "hattori",
-    "hattori",
-    "hattori"
+    // "lordVrax",
+    // "hattori",
+    // "hattori",
+    // "hattori"
   ])
 
   function hendleAddValue(newItems) {
@@ -23,13 +23,19 @@ export default function Note() {
     setItems(newItemsList)
   }
 
+  function handleDeleteValue(index) {
+    const newItemsList = items.filter((item, IndexItem) => {
+      return IndexItem !== index
+    })
+    setItems(newItemsList)
+  }
 
   return (
     <>
     <main className='min-h-screen'>
       <h1 className='text-center font-bold text-4xl m-4 '>Todo List</h1>
       <TodoInput hendleAddValue={hendleAddValue} />
-      <TodoList items={items} />
+      <TodoList handleDeleteValue={handleDeleteValue} items={items} />
     </main>
     </>
   )
