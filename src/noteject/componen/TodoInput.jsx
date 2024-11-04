@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 export default function TodoInput(props) {
-  const {hendleAddValue} = props
-  const [todoValue, setTodoValue] = useState('')
+  const {hendleAddValue, todoValue, setTodoValue} = props
+ 
 
   return (
     <div className='flex flex-row tex-center justify-center'>

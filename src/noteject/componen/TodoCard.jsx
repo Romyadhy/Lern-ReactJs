@@ -2,14 +2,16 @@ import React from 'react'
 
 export default function TodoCard(props) {
 
-  const {children, handleDeleteValue, index} = props
+  const {children, handleDeleteValue, index, handleEditValue} = props
   
 
   return (
     <li className='m-4 flex bg-gray-300 rounded-md p-4'> 
       {children}
       <div className='mx-2'>
-        <button>
+        <button onClick={() => {
+          handleEditValue(index)
+        }}>
           <i className=" mx-3 fa-solid fa-pen-to-square"></i>
         </button>
         <button onClick={() => {
